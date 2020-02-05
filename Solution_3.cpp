@@ -48,7 +48,7 @@ bool isLastNode(trie* root)
 
 
 //suggestions
-void booblesugg(trie* root, string curr,std::vector<string>& output) 
+void bobblesugg(trie* root, string curr,std::vector<string>& output) 
 { 
 	// found a string in Tree with the given prefix 
 	if (root->is_leaf) 
@@ -69,7 +69,7 @@ void booblesugg(trie* root, string curr,std::vector<string>& output)
 			curr.push_back(97 + i); 
 
 			// recur over the rest 
-			booblesugg(root->children[i], curr,output);
+			bobblesugg(root->children[i], curr,output);
 			
 			// remove last character 
 			curr.pop_back(); 
@@ -114,7 +114,7 @@ int print(trie* root, const string q)
 	if (!isLast) 
 	{ 
 		string prefix = q; 
-		booblesugg(curr, prefix,output); 
+		bobblesugg(curr, prefix,output); 
 		 
 	} 
 
