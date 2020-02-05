@@ -31,8 +31,8 @@ Data Structure used: Tree
 <br/>
 <br/>
 Question 3:Word suggestions</br><br/>
-first I used Trie data structure to insert all the string and then extract first 5 string which is starting from that prefix or query string .<br/><br/>
-Data structure used: Trie (most effecient for information retrieval)
+first I used Trie data structure which used a very unique and efficient approach to insert all the string and then extract first 5 string which is starting from that prefix or query string .<br/><br/>
+Data structure used: Trie (most efficient for information retrieval)
 <br/>
 4 Functions</br>
 <ul>
