@@ -125,7 +125,7 @@ int print(trie* root, const string q)
 		//printing the string array
 
 	for(int i=0;i<5;i++){
-		cout<<output[i]<<endl;
+		cout<<output[i]<<", ";
 	}
 } 
 
